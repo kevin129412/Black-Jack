@@ -145,7 +145,8 @@
   }
   var G = $('byteLength'),
     H = J(G),
-    Q = /\[object ((I|Ui)nt(8|16|32)|Float(32|64)|Uint8Clamped|Big(I|Ui)nt64)Array\]/;
+    Q =
+      /\[object ((I|Ui)nt(8|16|32)|Float(32|64)|Uint8Clamped|Big(I|Ui)nt64)Array\]/;
   var X = c
       ? function (n) {
           return h ? h(n) && !q(n) : H(n) && Q.test(a.call(n));
